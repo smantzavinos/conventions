@@ -1,31 +1,32 @@
 # Documentation Conventions
 
-This directory contains guidelines and best practices for writing documentation across projects.
+This directory contains the recommended structure and templates for project documentation.
 
-## Purpose
+## Recommended Documentation Structure
 
-- Ensure clarity, consistency, and completeness in documentation.
-- Provide templates and examples for common documentation types.
-- Facilitate easier onboarding and knowledge sharing.
-- Encourage use of consistent terminology and style.
+```
+docs/
+│  README.md                 # Vault index and overview of documentation structure
+├─ 01 – Design Planning.md   # High-level goals, scope, and architectural vision for the project
+├─ 02 – Design Input.md      # Requirements, constraints, and external inputs driving the design
+├─ 03 – Design Output.md     # Finalized designs, specifications, and architectural decisions
+├─ 04 – Design Verification.md # How the design is validated (tests, reviews, acceptance criteria)
+└─ 05 – Project Plan.md      # Timeline, milestones, deliverables, and resource planning
+```
 
-## Guidelines
+### Document Contents
 
-- Use Markdown format for all documentation files.
-- Write clear, concise, and user-focused content.
-- Include examples and code snippets where applicable.
-- Keep documentation up to date with code changes.
-- Review and update documentation regularly.
+#### 01 – Design Planning.md
+Outline the project's purpose, high-level goals, scope, and initial architectural vision. Summarize the problem being solved and the intended impact.
 
-## Structure
+#### 02 – Design Input.md
+List all requirements, constraints, user stories, and any external factors or dependencies that influence the design.
 
-- Use headings and subheadings to organize content.
-- Use bullet points and numbered lists for clarity.
-- Link to related documents and external resources.
-- Include a table of contents for longer documents.
+#### 03 – Design Output.md
+Document the chosen design, including diagrams, specifications, and key architectural decisions. This is the canonical reference for how the system is intended to work.
 
-## Tools
+#### 04 – Design Verification.md
+Describe how the design will be validated, including test plans, review processes, and acceptance criteria.
 
-- Use Markdown linters to maintain style consistency.
-- Use version control to track documentation changes.
-- Utilize documentation generators where appropriate.
+#### 05 – Project Plan.md
+Provide the project timeline, major milestones, deliverables, and resource allocation.
