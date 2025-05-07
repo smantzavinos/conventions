@@ -1,32 +1,109 @@
-# Documentation Conventions
+# Docs Folder Template
 
-This directory contains the recommended structure and templates for project documentation.
+This file is copied verbatim into new projects.
 
-## Recommended Documentation Structure
+## Purpose
 
+Introduce vault & link to DHF notes.
+
+🔒 KEEP
+
+## How to use ✏️ UPDATE
+
+- Rename Project Name below.
+- Ensure [[definitions]] is linked to your project glossary if you maintain a separate one.
+
+---
+
+# Project Name Documentation ✏️ UPDATE
+
+Welcome to the documentation vault for <Project Name>. Use the index below to navigate.
+
+[[01 – Design Planning]]
+
+[[02 – Design Input]]
+
+[[03 – Design Output]]
+
+[[04 – Design Verification]]
+
+[[05 – Project Plan]]
+
+---
+
+# 01 – Design Planning
+
+Sections tagged 🔒 KEEP remain unchanged; items tagged ✏️ UPDATE must be tailored to the project.
+
+| Aspect         | Summary |
+| -------------- | ------- |
+| **Purpose** ✏️ UPDATE | One‑sentence mission of the project. |
+| **Scope (MVP)** ✏️ UPDATE | Bullet list of major features included in first release. |
+| **Tech Stack** ✏️ UPDATE | Stated technologies / frameworks. |
+| **Stakeholders** ✏️ UPDATE | Roles & names responsible. |
+| **Quality Plan** 🔒 KEEP | Continuous linters, unit tests, CI, UAT. |
+| **Timeline** ✏️ UPDATE | e.g. 6 iterations (see [[05 – Project Plan]]). |
+
+---
+
+# 02 – Design Input
+
+## 2.1 Primary Use Cases ✏️ UPDATE
+
+Describe each user scenario in "As a … I want … so that …" form.
+
+## 2.2 Functional Requirements ✏️ UPDATE
+
+| ID    | Requirement |
+|-------|-------------|
+| FR‑01 | …           |
+| FR‑02 | …           |
+
+Each requirement line is ✏️ UPDATE. Table header is 🔒 KEEP.
+
+---
+
+# 03 – Design Output
+
+## 3.1 System Architecture ✏️ UPDATE
+
+```mermaid
+flowchart TD
+    A[Example Component] --> B[Another]
 ```
-docs/
-│  README.md                 # Vault index and overview of documentation structure
-├─ 01 – Design Planning.md   # High-level goals, scope, and architectural vision for the project
-├─ 02 – Design Input.md      # Requirements, constraints, and external inputs driving the design
-├─ 03 – Design Output.md     # Finalized designs, specifications, and architectural decisions
-├─ 04 – Design Verification.md # How the design is validated (tests, reviews, acceptance criteria)
-└─ 05 – Project Plan.md      # Timeline, milestones, deliverables, and resource planning
-```
 
-### Document Contents
+## 3.2 Key Design Requirements ✏️ UPDATE
 
-#### 01 – Design Planning.md
-Outline the project's purpose, high-level goals, scope, and initial architectural vision. Summarize the problem being solved and the intended impact.
+| Category | Requirement |
+|----------|-------------|
+| Agents   | …           |
+| Security | …           |
 
-#### 02 – Design Input.md
-List all requirements, constraints, user stories, and any external factors or dependencies that influence the design.
+---
 
-#### 03 – Design Output.md
-Document the chosen design, including diagrams, specifications, and key architectural decisions. This is the canonical reference for how the system is intended to work.
+# 04 – Design Verification
 
-#### 04 – Design Verification.md
-Describe how the design will be validated, including test plans, review processes, and acceptance criteria.
+## 4.1 Verification Matrix ✏️ UPDATE
 
-#### 05 – Project Plan.md
-Provide the project timeline, major milestones, deliverables, and resource allocation.
+| Req ID | Test ID | Method | Acceptance Criteria |
+|--------|---------|--------|--------------------|
+| FR‑01  | T‑01    | Unit   | …                  |
+
+## 4.2 Test Plans & Procedures 🔒 KEEP (outline)
+
+- Unit Tests – automated per commit.
+- Integration – run against mocks.
+- UAT – staging environment walkthrough.
+
+Add project‑specific details above ✏️ UPDATE.
+
+---
+
+# 05 – Project Plan
+
+Iterations can be renamed; table layout 🔒 KEEP.
+
+| Iteration   | Deliverables ✏️ UPDATE      | Duration ✏️ UPDATE |
+|-------------|----------------------------|--------------------|
+| 0 Kick‑off  | Charter, repo, CI scaffold | 1 w               |
+| 1 …         | …                          | …                  |
