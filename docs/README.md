@@ -15,7 +15,8 @@ Introduce vault & link to DHF notes.
 
 ## Diagrams
 
-Use diagrams judiciously throughout the documentation to clarify complex structures, workflows, or relationships. All diagrams should be written in [Mermaid.js](https://mermaid-js.github.io/) format for compatibility with Obsidian and other markdown tools.
+Diagram use encouraged.  
+Use diagrams as much as reasonably helpful throughout the documentation to clarify complex structures, workflows, or relationships. All diagrams should be written in [Mermaid.js](https://mermaid-js.github.io/) format for compatibility with Obsidian and other markdown tools.
 
 ---
 
