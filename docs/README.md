@@ -13,6 +13,10 @@ Introduce vault & link to DHF notes.
 - Rename Project Name below.
 - Ensure [[definitions]] is linked to your project glossary if you maintain a separate one.
 
+## Diagrams
+
+Use diagrams judiciously throughout the documentation to clarify complex structures, workflows, or relationships. All diagrams should be written in [Mermaid.js](https://mermaid-js.github.io/) format for compatibility with Obsidian and other markdown tools.
+
 ---
 
 # Project Name Documentation ✏️ UPDATE
