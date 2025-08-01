@@ -32,7 +32,7 @@ This document provides coding standards and best practices for TypeScript projec
 
 ## Testing
 
-- Use frameworks like Jest or Mocha.
+- Use frameworks like Vitest or Playright.
 - Write tests for all public functions and classes.
 - Mock dependencies where appropriate.
 
